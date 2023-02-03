@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Nunjucks format</title>
+</head>
+<style>
+    body{
+    background-color: whitesmoke; ;
+    margin: 0px;
+    padding: 32px;
+   
+    }
+    body >h1{
+            text-decoration: underline;
+    }
+    span{
+    
+        color:black;
+        font-weight:600;
+    }
+  
+    h1 {
+        color:green;
+    }
+    h3{
+        color:red;
+    }
+   
+</style>
+<body>
+    <h1 style='text-align:center'>Questions </h1>
+  <main>
+    <h3>Q1.If Id is even print its respective name, username, email else print "I'm Odd"</h3>
+    <p><p> Ans:</p>
+        <ul>
+            
+                
+                <li>I'm Odd</li>
+                
+                
+            
+                
+                    <li>
+                        <ul class='inner'>
+                            <li>Name:  <span>Ervin Howell</span><br>
+                            UserName:  <span>Antonette</span><br>
+                            Email:   <span>Shanna@melissa.tv</span></li>
+                        </ul>
+                    </li>
+                    
+                
+            
+                
+                <li>I'm Odd</li>
+                
+                
+            
+                
+                    <li>
+                        <ul class='inner'>
+                            <li>Name:  <span>Patricia Lebsack</span><br>
+                            UserName:  <span>Karianne</span><br>
+                            Email:   <span>Julianne.OConner@kory.org</span></li>
+                        </ul>
+                    </li>
+                    
+                
+            
+                
+                <li>I'm Odd</li>
+                
+                
+            
+                
+                    <li>
+                        <ul class='inner'>
+                            <li>Name:  <span>Mrs. Dennis Schulist</span><br>
+                            UserName:  <span>Leopoldo_Corkery</span><br>
+                            Email:   <span>Karley_Dach@jasper.info</span></li>
+                        </ul>
+                    </li>
+                    
+                
+            
+                
+                <li>I'm Odd</li>
+                
+                
+            
+                
+                    <li>
+                        <ul class='inner'>
+                            <li>Name:  <span>Nicholas Runolfsdottir V</span><br>
+                            UserName:  <span>Maxime_Nienow</span><br>
+                            Email:   <span>Sherwood@rosamond.me</span></li>
+                        </ul>
+                    </li>
+                    
+                
+            
+                
+                <li>I'm Odd</li>
+                
+                
+            
+                
+                    <li>
+                        <ul class='inner'>
+                            <li>Name:  <span>Clementina DuBuque</span><br>
+                            UserName:  <span>Moriah.Stanton</span><br>
+                            Email:   <span>Rey.Padberg@karina.biz</span></li>
+                        </ul>
+                    </li>
+                    
+                
+            
+        </ul>
+    </p>
+    <hr>
+    <h3>Q2.From the shared sapmle data of array JSON, based on all id values get its respecive
+    address keys and values and print them.</h3>
+    <p><p> Ans: All Address is </p>
+        
+            <p>address for id :1</p>
+            
+            
+                Key: <span>street</span>, Value: <span>Kulas Light</span><br>
+            
+            
+                Key: <span>suite</span>, Value: <span>Apt. 556</span><br>
+            
+            
+                Key: <span>city</span>, Value: <span>Gwenborough</span><br>
+            
+            
+                Key: <span>zipcode</span>, Value: <span>92998-3874</span><br>
+            
+            
+                Key: <span>geo</span>, Value: <span>[object Object]</span><br>
+            
+         
+        
+            <p>address for id :2</p>
+            
+            
+                Key: <span>street</span>, Value: <span>Victor Plains</span><br>
+            
+            
+                Key: <span>suite</span>, Value: <span>Suite 879</span><br>
+            
+            
+                Key: <span>city</span>, Value: <span>Wisokyburgh</span><br>
+            
+            
+                Key: <span>zipcode</span>, Value: <span>90566-7771</span><br>
+            
+            
+                Key: <span>geo</span>, Value: <span>[object Object]</span><br>
+            
+         
+        
+            <p>address for id :3</p>
+            
+            
+                Key: <span>street</span>, Value: <span>Douglas Extension</span><br>
+            
+            
+                Key: <span>suite</span>, Value: <span>Suite 847</span><br>
+            
+            
+                Key: <span>city</span>, Value: <span>McKenziehaven</span><br>
+            
+            
+                Key: <span>zipcode</span>, Value: <span>59590-4157</span><br>
+            
+            
+                Key: <span>geo</span>, Value: <span>[object Object]</span><br>
+            
+         
+        
+            <p>address for id :4</p>
+            
+            
+                Key: <span>street</span>, Value: <span>Hoeger Mall</span><br>
+            
+            
+                Key: <span>suite</span>, Value: <span>Apt. 692</span><br>
+            
+            
+                Key: <span>city</span>, Value: <span>South Elvis</span><br>
+            
+            
+                Key: <span>zipcode</span>, Value: <span>53919-4257</span><br>
+            
+            
+                Key: <span>geo</span>, Value: <span>[object Object]</span><br>
+            
+         
+        
+            <p>address for id :5</p>
+            
+            
+                Key: <span>street</span>, Value: <span>Skiles Walks</span><br>
+            
+            
+                Key: <span>suite</span>, Value: <span>Suite 351</span><br>
+            
+            
+                Key: <span>city</span>, Value: <span>Roscoeview</span><br>
+            
+            
+                Key: <span>zipcode</span>, Value: <span>33263</span><br>
+            
+            
+                Key: <span>geo</span>, Value: <span>[object Object]</span><br>
+            
+         
+        
+            <p>address for id :6</p>
+            
+            
+                Key: <span>street</span>, Value: <span>Norberto Crossing</span><br>
+            
+            
+                Key: <span>suite</span>, Value: <span>Apt. 950</span><br>
+            
+            
+                Key: <span>city</span>, Value: <span>South Christy</span><br>
+            
+            
+                Key: <span>zipcode</span>, Value: <span>23505-1337</span><br>
+            
+            
+                Key: <span>geo</span>, Value: <span>[object Object]</span><br>
+            
+         
+        
+            <p>address for id :7</p>
+            
+            
+                Key: <span>street</span>, Value: <span>Rex Trail</span><br>
+            
+            
+                Key: <span>suite</span>, Value: <span>Suite 280</span><br>
+            
+            
+                Key: <span>city</span>, Value: <span>Howemouth</span><br>
+            
+            
+                Key: <span>zipcode</span>, Value: <span>58804-1099</span><br>
+            
+            
+                Key: <span>geo</span>, Value: <span>[object Object]</span><br>
+            
+         
+        
+            <p>address for id :8</p>
+            
+            
+                Key: <span>street</span>, Value: <span>Ellsworth Summit</span><br>
+            
+            
+                Key: <span>suite</span>, Value: <span>Suite 729</span><br>
+            
+            
+                Key: <span>city</span>, Value: <span>Aliyaview</span><br>
+            
+            
+                Key: <span>zipcode</span>, Value: <span>45169</span><br>
+            
+            
+                Key: <span>geo</span>, Value: <span>[object Object]</span><br>
+            
+         
+        
+            <p>address for id :9</p>
+            
+            
+                Key: <span>street</span>, Value: <span>Dayna Park</span><br>
+            
+            
+                Key: <span>suite</span>, Value: <span>Suite 449</span><br>
+            
+            
+                Key: <span>city</span>, Value: <span>Bartholomebury</span><br>
+            
+            
+                Key: <span>zipcode</span>, Value: <span>76495-3109</span><br>
+            
+            
+                Key: <span>geo</span>, Value: <span>[object Object]</span><br>
+            
+         
+        
+            <p>address for id :10</p>
+            
+            
+                Key: <span>street</span>, Value: <span>Kattie Turnpike</span><br>
+            
+            
+                Key: <span>suite</span>, Value: <span>Suite 198</span><br>
+            
+            
+                Key: <span>city</span>, Value: <span>Lebsackbury</span><br>
+            
+            
+                Key: <span>zipcode</span>, Value: <span>31428-2261</span><br>
+            
+            
+                Key: <span>geo</span>, Value: <span>[object Object]</span><br>
+            
+         
+        
+
+    </p>
+    <hr>
+    <h3>Q3.If any email ends with .biz print its name with email values.</h3>
+    <p><p> Ans:</p> 
+        <ul>
+            <p>The Name and Email or the email which end with .biz</p>
+            
+                
+                    <li>
+                        Name: <span>Leanne Graham</span>, Email:<span>Sincere@april.biz</span>
+                    </li>
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+                    <li>
+                        Name: <span>Kurtis Weissnat</span>, Email:<span>Telly.Hoeger@billy.biz</span>
+                    </li>
+                
+            
+                
+            
+                
+            
+                
+                    <li>
+                        Name: <span>Clementina DuBuque</span>, Email:<span>Rey.Padberg@karina.biz</span>
+                    </li>
+                
+            
+        </ul>
+    </p>
+    <hr>
+    <h3>Q4.If city contains any of following "Aliyaview", "Howemouth", Gwenborough print its
+    respective cityname, zipcode, Geo with lat and lang values.</h3>
+    <p><p> Ans:</p> 
+        <ul>
+            
+                
+                    <li>"The Zipcode and Geo of cityname <span>Gwenborough</span> is: <span>92998-3874</span> and
+                        <Lat:<span>-37.3159</span>, Lang:<span>81.1496</span>"                
+                    </li>
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+                    <li>"The Zipcode and Geo of cityname <span>Howemouth</span> is: <span>58804-1099</span> and
+                        <Lat:<span>24.8918</span>, Lang:<span>21.8984</span>"                
+                    </li>
+                
+            
+                
+                    <li>"The Zipcode and Geo of cityname <span>Aliyaview</span> is: <span>45169</span> and
+                        <Lat:<span>-14.3990</span>, Lang:<span>-120.7677</span>"                
+                    </li>
+                
+            
+                
+            
+                
+            
+        </ul>
+    </p>
+    <hr>
+    <h3>Q5.Print CatchPhrase which will contain max 15 letters.</h3>
+    <p><p> Ans:</p> 
+        <p>CatchPhrase of only 15 letters</p>
+        <ul>
+            
+                <li>"CatchPhrase:<span>Multi-layered cl</span>"</li>
+            
+                <li>"CatchPhrase:<span>Proactive didact</span>"</li>
+            
+                <li>"CatchPhrase:<span>Face to face bif</span>"</li>
+            
+                <li>"CatchPhrase:<span>Multi-tiered zer</span>"</li>
+            
+                <li>"CatchPhrase:<span>User-centric fau</span>"</li>
+            
+                <li>"CatchPhrase:<span>Synchronised bot</span>"</li>
+            
+                <li>"CatchPhrase:<span>Configurable mul</span>"</li>
+            
+                <li>"CatchPhrase:<span>Implemented seco</span>"</li>
+            
+                <li>"CatchPhrase:<span>Switchable conte</span>"</li>
+            
+                <li>"CatchPhrase:<span>Centralized empo</span>"</li>
+            
+        </ul>
+    </p>
+</main>
+</body>
+
+</html>

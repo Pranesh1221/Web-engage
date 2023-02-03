@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Nunjucks format</title>
+</head>
+<style>
+    body{
+    background-color: whitesmoke; ;
+    margin: 0px;
+    padding: 32px;
+   
+    }
+    body >h1{
+            text-decoration: underline;
+    }
+    span{
+    
+        color:black;
+        font-weight:600;
+    }
+  
+    h1 {
+        color:green;
+    }
+    h3{
+        color:red;
+    }
+   
+</style>
+<body>
+    <h1 style='text-align:center'>Questions </h1>
+  <main>
+    <h3>Q1.If Id is even print its respective name, username, email else print "I'm Odd"</h3>
+    <p><p> Ans:</p>
+        <ul>
+            {% for item in user %}
+                {% if item.id%2===0 %}
+                    <li>
+                        <ul class='inner'>
+                            <li>Name:  <span>{{item.name}}</span><br>
+                            UserName:  <span>{{item.username}}</span><br>
+                            Email:   <span>{{item.email}}</span></li>
+                        </ul>
+                    </li>
+                    {# <hr> #}
+                {% else %}
+                <li>I'm Odd</li>
+                {# <hr> #}
+                {% endif %}
+            {% endfor %}
+        </ul>
+    </p>
+    <hr>
+    <h3>Q2.From the shared sapmle data of array JSON, based on all id values get its respecive
+    address keys and values and print them.</h3>
+    <p><p> Ans: All Address is </p>
+        {% for item in user %}
+            <p>address for id :{{item.id}}</p>
+            {% for key, value in item.address %}
+            
+                Key: <span>{{key}}</span>, Value: <span>{{value}}</span><br>
+            {% endfor %}
+         
+        {% endfor %}
+
+    </p>
+    <hr>
+    <h3>Q3.If any email ends with .biz print its name with email values.</h3>
+    <p><p> Ans:</p> 
+        <ul>
+            <p>The Name and Email or the email which end with .biz</p>
+            {% for item in user %}
+                {% if item.email.slice(-3)==='biz' %}
+                    <li>
+                        Name: <span>{{item.name}}</span>, Email:<span>{{item.email}}</span>
+                    </li>
+                {%endif%}
+            {% endfor %}
+        </ul>
+    </p>
+    <hr>
+    <h3>Q4.If city contains any of following "Aliyaview", "Howemouth", Gwenborough print its
+    respective cityname, zipcode, Geo with lat and lang values.</h3>
+    <p><p> Ans:</p> 
+        <ul>
+            {% for item in user %}
+                {% if item.address.city==='Aliyaview' or item.address.city==='Howemouth' or item.address.city==='Gwenborough' %}
+                    <li>"The Zipcode and Geo of cityname <span>{{item.address.city}}</span> is: <span>{{item.address.zipcode}}</span> and
+                        <Lat:<span>{{item.address.geo.lat}}</span>, Lang:<span>{{item.address.geo.lng}}</span>"                
+                    </li>
+                {%endif%}
+            {% endfor %}
+        </ul>
+    </p>
+    <hr>
+    <h3>Q5.Print CatchPhrase which will contain max 15 letters.</h3>
+    <p><p> Ans:</p> 
+        <p>CatchPhrase of only 15 letters</p>
+        <ul>
+            {% for item in user %}
+                <li>"CatchPhrase:<span>{{item.company.catchPhrase.slice(0,16)}}</span>"</li>
+            {% endfor %}
+        </ul>
+    </p>
+</main>
+</body>
+
+</html>

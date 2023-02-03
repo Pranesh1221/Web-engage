@@ -1,0 +1,54 @@
+    Ques 1:-  What will be your approach to solving this issue? Explain your strategy and approach to this.
+    ans:-     My approach to solving this issue would be to prioritize Task 2, as it is for a priority 
+              customer whose campaign needs to go live in the next 2 days. I would inform the account 
+              manager of Task 1, Manoj, that I will not be able to meet the original due date for the 
+              task due to a emergency and ask for an extension of 3 days. I would then work on 
+              completing Task 2 as quickly as possible to ensure that it is ready for the priority 
+              customer's campaign to go live on time.
+
+    ---------------------------------------------------------------------------------------------------------------
+
+    Ques 2:-  How will you inform the 2 separate account managers of both customers about your approach? 
+              Write an internal message informing Manoj (Account manager for Task 1) & Ravi (Account Manager for Task 2) 
+              about your respective approach.          
+    ans:-     To inform the account managers of both customers about my approach, I would send an internal message as follows:
+
+              Subject: Update on task progress
+
+              Dear Manoj,
+
+               I hope this message finds you well. I am writing to inform you that I will not be able to meet the original due
+               date for Task 1 due to a  emergency. I will be requesting an extension of 3 days for this task. 
+               I apologize for any inconvenience this may cause and appreciate your understanding.
+
+               Sincerely,
+               Pranesh
+             ---------------------
+             Dear Ravi,
+
+               I hope this message finds you well. I am writing to inform you that I will be prioritizing Task 2 due to the go-live 
+               date of the campaign. I will be working on completing this task as quickly as possible to ensure it is ready on time.
+
+               Sincerely,
+               Pranesh
+
+   ----------------------------------------------------------------------------------------------------------------------------------
+
+    Ques 3:- How will you communicate the delay of additional 3 days to the customer? (Write an
+             email to the customer informing them about this).   
+    ans:-   
+             Subject: Delay in task completion
+
+             Dear [Customer's name],
+
+             I hope this email finds you well. I am writing to inform you that I will not be able to meet
+             the original due date for the task due to a family emergency. I will be requesting an extension 
+             of 3 days for this task. I apologize for any inconvenience this may cause and assure you that we
+             will work diligently to complete the task as soon as possible.
+
+            Please let me know if you have any questions or concerns.
+
+            Sincerely,
+            Pranesh
+
+          
